@@ -1,0 +1,15 @@
+{
+  "name": "benyoskovitz",
+  "description": "Skills for Claude by Ben Yoskovitz.",
+  "owner": {
+    "name": "Benjamin Yoskovitz"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "source": "./",
+      "description": "Skills for Claude by Ben Yoskovitz, starting with article-to-video: turn an article into a short silent animated video.",
+      "strict": false
+    }
+  ]
+}
