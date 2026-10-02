@@ -10,14 +10,23 @@ Skills for Claude that I use and think others will find useful. Each skill is a 
 
 ### Option A: plugin marketplace (easiest to keep updated)
 
-Inside Claude Code, run:
+In a terminal, run the two commands below. They need the `claude` command. If your terminal says `claude` isn't found or isn't recognized, install it first:
 
-```
-/plugin marketplace add benyoskovitz/claude-skills
-/plugin install claude-skills@benyoskovitz
+1. On Mac or Linux, run `curl -fsSL https://claude.ai/install.sh | bash`. On Windows, follow [Anthropic's setup guide](https://code.claude.com/docs/en/setup).
+2. Open a **new** terminal window and run `claude --version`. It should print a version number.
+3. If it still isn't found, follow [Fix your PATH](https://code.claude.com/docs/en/troubleshoot-install#command-not-found-claude-after-installation), then try again in a new window.
+
+```bash
+claude plugin marketplace add benyoskovitz/claude-skills
 ```
 
-Every skill in this repo comes along. They show up with a `claude-skills:` prefix, for example `/claude-skills:article-to-video`. To get new versions later, run `/plugin marketplace update benyoskovitz`.
+```bash
+claude plugin install claude-skills@benyoskovitz
+```
+
+If you use Claude Code in a terminal, you can type the same thing inside a session instead: `/plugin marketplace add benyoskovitz/claude-skills`, then `/plugin install claude-skills@benyoskovitz`. If `/plugin` opens a plugins screen instead of running the command (this can happen in the Claude desktop app), use the terminal commands above.
+
+Every skill in this repo comes along. Start a new session and they show up with a `claude-skills:` prefix, for example `/claude-skills:article-to-video`. To get new versions later, run `claude plugin marketplace update benyoskovitz`, then `claude plugin update claude-skills@benyoskovitz`, and start a new session.
 
 ### Option B: copy one skill
 
