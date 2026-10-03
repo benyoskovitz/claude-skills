@@ -8,7 +8,7 @@
     {
       "name": "claude-skills",
       "source": "./",
-      "description": "Skills for Claude by Ben Yoskovitz, starting with article-to-video: turn an article into a short silent animated video.",
+      "description": "Skills for Claude by Ben Yoskovitz: article-to-video turns an article into a short silent animated video, and pitch-deck-reviewer gives candid feedback on a pitch deck.",
       "strict": false
     }
   ]

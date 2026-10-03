@@ -5,6 +5,7 @@ Skills for Claude that I use and think others will find useful. Each skill is a 
 | Skill | What it does |
 |---|---|
 | [article-to-video](skills/article-to-video/SKILL.md) | Turns a blog post and its cover image into a 25 to 30 second silent animated video (MP4) for LinkedIn or X, built around 3 key messages. Claude asks for your approval at each step. |
+| [pitch-deck-reviewer](skills/pitch-deck-reviewer/SKILL.md) | Gives clear, candid feedback on a startup or corporate venture pitch deck, one slide, or the overall storyline, using review principles I curated. A [ChatGPT plugin version](https://benyoskovitz.github.io/pitch-deck-reviewer/) is awaiting OpenAI's approval. |
 
 ## Install in Claude Code
 
@@ -26,7 +27,7 @@ claude plugin install claude-skills@benyoskovitz
 
 If you use Claude Code in a terminal, you can type the same thing inside a session instead: `/plugin marketplace add benyoskovitz/claude-skills`, then `/plugin install claude-skills@benyoskovitz`. If `/plugin` opens a plugins screen instead of running the command (this can happen in the Claude desktop app), use the terminal commands above.
 
-Every skill in this repo comes along. Start a new session and they show up with a `claude-skills:` prefix, for example `/claude-skills:article-to-video`. To get new versions later, run `claude plugin marketplace update benyoskovitz`, then `claude plugin update claude-skills@benyoskovitz`, and start a new session.
+Every skill in this repo comes along. Start a new session and they show up with a `claude-skills:` prefix, for example `/claude-skills:article-to-video` or `/claude-skills:pitch-deck-reviewer`. To get new versions later, run `claude plugin marketplace update benyoskovitz`, then `claude plugin update claude-skills@benyoskovitz`, and start a new session.
 
 ### Option B: copy one skill
 
@@ -38,12 +39,12 @@ git clone https://github.com/benyoskovitz/claude-skills.git
 mkdir -p ~/.claude/skills && cp -R claude-skills/skills/article-to-video ~/.claude/skills/
 ```
 
-Run both in the same terminal. Then start a new Claude Code session. The skill is now `/article-to-video`. To install it for one project only, copy the folder into that project's `.claude/skills/` instead.
+Run both in the same terminal. Then start a new Claude Code session. The skill is now `/article-to-video`. For a different skill, put its folder name in place of `article-to-video`, for example `pitch-deck-reviewer`. To install it for one project only, copy the folder into that project's `.claude/skills/` instead.
 
 ## Install in claude.ai or Cowork
 
 1. Get the files. Either clone the repo as above, or use **Code → Download ZIP** on GitHub and unzip it. A clone makes a folder called `claude-skills`. The ZIP makes one called `claude-skills-main`.
-2. Zip just the `article-to-video` folder, which is inside that folder's `skills` folder. On a Mac, right-click it in Finder and choose **Compress**. Or use a terminal.
+2. Zip just the folder of the skill you want, which is inside that folder's `skills` folder. The steps below use `article-to-video`. For another skill, put its folder name in place of `article-to-video`. On a Mac, right-click it in Finder and choose **Compress**. Or use a terminal.
 
    If you downloaded the ZIP to your Downloads folder:
 
@@ -58,7 +59,7 @@ Run both in the same terminal. Then start a new Claude Code session. The skill i
    ```
 
 3. In claude.ai, open **Settings → Capabilities**, make sure code execution is on, then upload the zip under **Skills**.
-4. Start a new chat and ask Claude to turn an article into a video. Skills you upload are private to your account.
+4. Start a new chat and ask Claude to use the skill, for example to turn an article into a video or to review your pitch deck. Skills you upload are private to your account.
 
 ## Requirements for article-to-video
 
@@ -68,6 +69,12 @@ The skill renders video on the machine Claude runs on, so it needs:
 - `ffmpeg` (on a Mac: `brew install ffmpeg`)
 
 In claude.ai and Cowork, Claude can usually install these in its own sandbox. In Claude Code, install them yourself first.
+
+## Using pitch-deck-reviewer
+
+It needs no installs. Give Claude your deck as a PDF so it can see the slides as well as read them. If you only have PowerPoint, Keynote, or Google Slides, export a PDF first, or share screenshots of the slides. If you can't do either, paste the slide text instead. Claude then reviews the text only and says so.
+
+Reviews are AI generated. They are not a personal review by me and do not guarantee funding.
 
 ## License
 
