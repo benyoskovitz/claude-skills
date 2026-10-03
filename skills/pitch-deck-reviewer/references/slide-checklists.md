@@ -124,9 +124,9 @@ Use these questions slide by slide. A deck does not need every slide type, and t
 
 ## A standard outline
 
-For a deck missing many pieces, propose an outline like this and adapt it to the company: vision, problem, solution, how it works, target market and size, business model and pricing, go-to-market, status and traction, goals for the next 12 to 24 months, why now, competitive advantage, team, ask, close on the vision with contact details.
+For a deck missing many pieces, propose an outline like this and adapt it to the company: vision, problem, solution, how it works, status and traction, why now, target market and size, business model and pricing, go-to-market, competitive advantage, team, goals for the next 12 to 24 months, ask, close on the vision with contact details.
 
-For a founder who lived the problem, a story arc can work better: the founder's discovery, the problem, why it matters now, the solution, how it works, proof, market, model, go-to-market, team, ask, vision.
+For a founder who lived the problem, a story arc can work better: the founder's discovery, the problem, the solution, how it works, proof, why it matters now, market, model, go-to-market, team, ask, vision.
 
 ## Recommendation moves
 
