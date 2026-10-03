@@ -5,7 +5,7 @@ Skills for Claude that I use and think others will find useful. Each skill is a 
 | Skill | What it does |
 |---|---|
 | [article-to-video](skills/article-to-video/SKILL.md) | Turns a blog post and its cover image into a 25 to 30 second silent animated video (MP4) for LinkedIn or X, built around 3 key messages. Claude asks for your approval at each step. |
-| [pitch-deck-reviewer](skills/pitch-deck-reviewer/SKILL.md) | Gives clear, candid feedback on a startup or corporate venture pitch deck, one slide, or the overall storyline, using review principles I curated. A [ChatGPT plugin version](https://benyoskovitz.github.io/pitch-deck-reviewer/) is awaiting OpenAI's approval. |
+| [pitch-deck-reviewer](skills/pitch-deck-reviewer/SKILL.md) | Gives clear, candid feedback on a startup or corporate venture pitch deck, one slide, or the overall storyline, using the patterns and checklists I use when I review decks. It can also rewrite weak slides, propose a new slide order, compare two versions of a deck, and list the questions investors are likely to ask. A [ChatGPT plugin version](https://benyoskovitz.github.io/pitch-deck-reviewer/) is awaiting OpenAI's approval. |
 
 ## Install in Claude Code
 
@@ -73,6 +73,8 @@ In claude.ai and Cowork, Claude can usually install these in its own sandbox. In
 ## Using pitch-deck-reviewer
 
 It needs no installs. Give Claude your deck as a PDF so it can see the slides as well as read them. If you only have PowerPoint, Keynote, or Google Slides, export a PDF first, or share screenshots of the slides. If you can't do either, paste the slide text instead. Claude then reviews the text only and says so.
+
+After a review, ask for any of the extra modes in your own words, for example "rewrite my three weakest slides" or "what will investors ask me?"
 
 Reviews are AI generated. They are not a personal review by me and do not guarantee funding.
 

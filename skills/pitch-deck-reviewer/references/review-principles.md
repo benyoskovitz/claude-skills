@@ -48,4 +48,4 @@ Describe strategic fit in concrete terms: customer access, internal use, distrib
 
 ## Visual communication
 
-Judge actual readability: hierarchy, text density, contrast, screenshot size, chart labels, spacing, consistency, and clipping. Favor a clear takeaway and a readable example over decorative complexity. Preserve useful detail in the appendix. Recommend a specific change; do not substitute "hire a designer" for identifying the communication problem. Match visual claims to what was actually inspected.
+Judge actual readability: hierarchy, text density, contrast, screenshot size, chart labels, spacing, consistency, and clipping. Favor a clear takeaway and a readable example over decorative complexity. Preserve useful detail in the appendix. Recommend a specific change and name the communication problem first. When the whole deck needs polish, also suggest hiring a designer; never let that suggestion replace naming the problem. Match visual claims to what was actually inspected.
