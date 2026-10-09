@@ -5,7 +5,7 @@ Skills for Claude that I use and think others will find useful. Each skill is a 
 | Skill | What it does |
 |---|---|
 | [article-to-video](skills/article-to-video/SKILL.md) | Turns a blog post and its cover image into a 25 to 30 second silent animated video (MP4) for LinkedIn or X, built around 3 key messages. Claude asks for your approval at each step. |
-| [pitch-deck-reviewer](skills/pitch-deck-reviewer/SKILL.md) | Gives clear, candid feedback on a startup or corporate venture pitch deck, one slide, or the overall storyline, using the patterns and checklists I use when I review decks. It can also rewrite weak slides, propose a new slide order, compare two versions of a deck, and list the questions investors are likely to ask. A [ChatGPT plugin version](https://benyoskovitz.github.io/pitch-deck-reviewer/) is awaiting OpenAI's approval. |
+| [pitch-deck-reviewer](skills/pitch-deck-reviewer/SKILL.md) | Helps founders improve a startup or corporate venture pitch deck with clear, candid feedback on the deck, one slide, or the overall storyline, using the patterns and checklists I use when I review decks. It can also rewrite weak slides, propose a new slide order, compare two versions of a deck, and list the questions investors are likely to ask. A [ChatGPT plugin version](https://benyoskovitz.github.io/pitch-deck-reviewer/) is awaiting OpenAI's approval. |
 
 ## Install in Claude Code
 

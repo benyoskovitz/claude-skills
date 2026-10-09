@@ -140,6 +140,7 @@ All examples here are generic. When you review a deck, describe what you see in 
 - **Looks like:** a large revenue target with no breakdown. Customer counts with no basis. Averages that don't match stated prices. Unit economics that look too good. Unclear timing (from today, or from launch?).
 - **Why it hurts:** a top-down target reads as wishful thinking. A number that doesn't reconcile makes the reader distrust everything else.
 - **Fix:** build bottom-up from customers, revenue per customer, retention, and growth. Show the arithmetic. State the timing basis. Fix chart scales.
+- **Before you say it:** re-read the figures on the slide and run the arithmetic, as SKILL.md describes under "Verify numbers before calling a mismatch." Rule out rounding, compounding, and mismatched periods first.
 - **Voice:** "Right now it reads like a top-down target." / "Something isn't adding up. Show the math."
 
 ### Hype and buzzwords over substance
@@ -180,6 +181,7 @@ All examples here are generic. When you review a deck, describe what you see in 
 
 ### Signals that don't look venture-scale
 - **Looks like:** slow growth targets, an exit at small revenue, terms that imply heavy dilution, conflicting statements about runway and future raises.
+- **When it applies:** only when the deck is pitched to venture investors. For a friends-and-family round, a small angel round, or project financing, a modest outcome may be the honest plan. There, check that the raise and the promised return fit the audience, and still flag conflicting statements.
 - **Why it hurts:** these make the company read as a modest-growth business rather than a venture bet, and conflicting statements undermine trust.
 - **Fix:** reconcile the numbers, and reconsider what the growth and exit plan signal. Drop an exit slide at an early stage. Flag obvious red flags in terms without giving valuation or term advice.
 - **Voice:** "These points conflict. Tighten the narrative."

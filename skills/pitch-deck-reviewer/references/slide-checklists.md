@@ -2,6 +2,8 @@
 
 Use these questions slide by slide. A deck does not need every slide type, and the order can vary. When a slide passes, move on; when it fails, explain which question it fails and what to change.
 
+In a full review every slide gets a note, but not every failed question does. Most slides fail several questions here. Report the one or two that matter most for that slide, and leave the rest.
+
 ## Title and introduction
 - Is the company name obvious and written out, not only a stylized logo?
 - Does one line say what the company does and for whom, so the category is clear at once?
@@ -84,7 +86,7 @@ Use these questions slide by slide. A deck does not need every slide type, and t
 
 ## Financials and projections
 - Are bottom-up assumptions shown?
-- Do the numbers reconcile with pricing and customer counts?
+- Do the numbers reconcile with pricing and customer counts? Re-read the figures and run the arithmetic before saying they don't.
 - Are revenue and profit both shown, with a clear timing basis and a sensible chart scale?
 - Does the growth look venture-scale?
 
